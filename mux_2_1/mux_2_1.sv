@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module mux_2_1
     (
     input wire d0,     
