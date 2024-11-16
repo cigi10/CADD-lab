@@ -13,7 +13,7 @@ module half_adder
 
 endmodule
 
-// using NAND gates
+// using NAND gates ------------------------------------------------------------------------------------------------------------------------------------------------
 
   //  assign AB_NAND = ~(A & B);           
   //  assign AN_XOR_B = ~(A & AB_NAND);     
@@ -21,9 +21,8 @@ endmodule
   //  assign S = ~(AN_XOR_B & BN_XOR_A);   
   //  assign C = ~(AB_NAND & AB_NAND);     
 
-// gate level 
+// gate level --------------------------------------------------------------------------------------------------------------------------------------------------
 
-   // intermediate signals
     // logic not_A, not_B, A_and_not_B, not_A_and_B;
 
     // Logic for XOR (Sum)
