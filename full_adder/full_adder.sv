@@ -49,3 +49,31 @@ endmodule
     // and (AND_CIN_XOR, AB_XOR, Cin);
 
     // or (Cout, AND_AB, AND_CIN_XOR);
+
+// Full adder using half adder ---------------------------------------------------------------------------------------------------------------------------------
+
+/* module full_adder_using_half_adder (
+    input logic A, B, Cin,    
+    output logic Sum, Cout    
+);
+
+    logic sum1, carry1, carry2;
+
+    half_adder HA1 (
+        .A(A),
+        .B(B),
+        .Sum(sum1),
+        .Carry(carry1)
+    );
+
+    half_adder HA2 (
+        .A(sum1),
+        .B(Cin),
+        .Sum(Sum),
+        .Carry(carry2)
+    );
+
+    assign Cout = carry1 | carry2;
+
+endmodule */
+
