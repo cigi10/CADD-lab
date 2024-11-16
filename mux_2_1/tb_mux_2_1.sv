@@ -1,5 +1,6 @@
 `timescale 1ns / 1ps  
 
+module tb_mux_2_1;
 reg d0, d1, s;      
 wire y;  
     mmux_2_1 uut
